@@ -1,5 +1,5 @@
-const appid = 'wx526f3c76289b1f94';
-const secret = 'fab9cfb54181d1b7c83971a96da4f2c8';
+const appid = '***';
+const secret = '***';
 const grantType = 'client_credential';
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 

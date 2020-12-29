@@ -6,7 +6,7 @@ const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 
 export default function BoxingDBClient() {
     const getToken = () => {
-        const uri = `/cgi-bin2/token?grant_type=${grantType}&appid=${appid}&secret=${secret}`;
+        const uri = `/cgi-bin/token?grant_type=${grantType}&appid=${appid}&secret=${secret}`;
 
         fetch(uri, { method: 'GET' })
             .then(blob => blob.json())

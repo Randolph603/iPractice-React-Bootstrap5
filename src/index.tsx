@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+// This is optional ref css here or inside index.scss
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';

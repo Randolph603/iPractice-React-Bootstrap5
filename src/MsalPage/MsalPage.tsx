@@ -89,7 +89,7 @@ export default function MsalPage() {
 
   const getAvatar = async (): Promise<void> => {
 
-    const response = await client.api("/me/photo/$value").version('beta').get();
+    const response = await client.api("/me/photo/$value").get();
 
 
     const buffer = await response.arrayBuffer();
